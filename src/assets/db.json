@@ -1,0 +1,110 @@
+{
+  "student": [
+    {
+      "name": "Priyanshu",
+      "phoneNumber": "8744533025",
+      "email": "priyanshu32@gmail.com",
+      "location": "Vadodra",
+      "phone": "8874201369",
+      "id": "cAaqps94wJQ"
+    },
+    {
+      "name": "Varsha",
+      "phoneNumber": "9922447125",
+      "email": "varsha@gmail.com",
+      "location": "Surat",
+      "phone": "9687410054",
+      "id": "BNgBFkYoPgQ"
+    },
+    {
+      "name": "Snigdha",
+      "phoneNumber": "8025419652",
+      "email": "snigdha33@gmail.com",
+      "location": "Banglore",
+      "phone": "787102548",
+      "id": "gi12NLP62ZE"
+    },
+    {
+      "name": "Shruti",
+      "phoneNumber": "8841032456",
+      "email": "shruti45@gmail.com",
+      "location": "Delhi",
+      "phone": "8520741654",
+      "id": "7l_skwahN8c"
+    },
+    {
+      "name": "Vineet",
+      "phoneNumber": "7412596224",
+      "email": "vineet34@gmail.com",
+      "location": "Dehradun",
+      "id": "YNHLtCx77GY"
+    }
+  ],
+  "user": [
+    {
+      "name": "",
+      "email": "",
+      "contact": "",
+      "dob": "",
+      "gender": "",
+      "courses": [],
+      "address": {
+        "pincode": "",
+        "area": "",
+        "city": ""
+      },
+      "id": "8AsS3hw4XHg"
+    },
+    {
+      "name": "Sakshi",
+      "email": "sakshi88@gmail.com",
+      "contact": "789654",
+      "dob": "2026-09-16",
+      "gender": "female",
+      "courses": [
+        "java",
+        "sql"
+      ],
+      "address": {
+        "pincode": "45871",
+        "area": "karve nagar",
+        "city": "nagpur"
+      },
+      "id": "DhA1iGvCMrQ"
+    },
+    {
+      "name": "Priyanshu",
+      "email": "priyanshi22@gmail.com",
+      "contact": "741021",
+      "dob": "2026-09-01",
+      "gender": "male",
+      "courses": [
+        "java",
+        "react"
+      ],
+      "address": {
+        "pincode": "87452",
+        "area": "Shridham Colony",
+        "city": "mumbai"
+      },
+      "id": "x7TM16YyeyM"
+    },
+    {
+      "name": "Khushboo",
+      "email": "khushboo909@gmail.com",
+      "contact": "789654",
+      "dob": "2007-05-06",
+      "gender": "female",
+      "courses": [
+        "sql"
+      ],
+      "address": {
+        "pincode": "56222",
+        "area": "Fc road",
+        "city": "pune"
+      },
+      "id": "CqWn_MIZ8T0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

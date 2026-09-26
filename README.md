@@ -1,109 +1,16 @@
-# React Student Management CRUD Application
+# React + Vite
 
-A Student Management application built using **React.js** that performs CRUD (Create, Read, Update, Delete) operations on student details using **Axios, Async/Await, and REST APIs**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The application provides an interactive interface to manage student records efficiently by communicating with a backend API.
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-* **Create:** Add new student details.
-* **Read:** Fetch and display student records.
-* **Update:** Edit existing student information.
-* **Delete:** Remove student records.
-* **API Integration:** Perform HTTP requests using Axios.
-* **Async/Await:** Handle asynchronous API operations.
-* **Dynamic UI:** Update student details through React components and state management.
+## React Compiler
 
-## 🛠️ Technologies Used
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-* React.js
-* JavaScript (ES6+)
-* Axios
-* Async/Await
-* HTML5
-* CSS3
-* REST APIs
-* npm
+## Expanding the ESLint configuration
 
-## 📂 Project Structure
-
-```text
-React-Student-Management-CRUD/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   └── index.css
-│
-├── package.json
-├── package-lock.json
-└── README.md
-```
-
-*Note: Update the folder structure according to your actual project files.*
-
-## ⚙️ Installation and Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/React-Student-Management-CRUD.git
-```
-
-### 2. Navigate to the project directory
-
-```bash
-cd React-Student-Management-CRUD
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Start the development server
-
-```bash
-npm start
-```
-
-The application will run at:
-
-```text
-http://localhost:3000
-```
-
-## 🔗 API Integration
-
-The application uses Axios with Async/Await to communicate with REST API endpoints.
-
-| Operation | HTTP Method | Purpose                |
-| --------- | ----------- | ---------------------- |
-| Create    | POST        | Add a new student      |
-| Read      | GET         | Fetch student details  |
-| Update    | PUT/PATCH   | Modify student details |
-| Delete    | DELETE      | Remove a student       |
-
-**Note:** Configure the API base URL according to your backend server.
-
-## 📚 Learning Outcomes
-
-* Implemented CRUD operations using React.js.
-* Integrated REST APIs using Axios.
-* Used Async/Await for asynchronous programming.
-* Practiced handling API requests and responses.
-* Developed a dynamic student management interface.
-
-## 👩‍💻 Author
-
-**Janhvi Kale**
-
-GitHub: [Your GitHub Profile](https://github.com/Janhvikale30)
-
----
-
-⭐ If you find this project useful, consider giving it a star!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
